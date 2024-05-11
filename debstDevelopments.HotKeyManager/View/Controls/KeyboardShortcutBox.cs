@@ -14,7 +14,7 @@ namespace debstDevelopments.HotKeyManager.View.Controls
     {
         static KeyboardShortcutBox()
         {
-            var res = new ResourceDictionary() { Source = new Uri("pack://application:,,,/VolumeSwitch;component/View/Theme/KeyboardShortcutBoxTemplate.xaml", UriKind.Absolute) };
+            var res = new ResourceDictionary() { Source = new Uri("pack://application:,,,/debstDevelopments.HotKeyManager;component/View/Controls/KeyboardShortcutBoxTemplate.xaml", UriKind.Absolute) };
             TemplateProperty.OverrideMetadata(typeof(KeyboardShortcutBox), new FrameworkPropertyMetadata(res[typeof(KeyboardShortcutBox)]));
         }
 
